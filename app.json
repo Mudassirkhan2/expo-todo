@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Expo Todo",
+    "slug": "expo-todo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mudassirkhan2org.expotodo"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mudassirkhan2org.expotodo"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4ee2c9d9-d0e3-4498-97dc-c0971e5d8717"
+      }
+    },
+    "owner": "mudassirkhan2-org",
+    "updates": {
+      "url": "https://u.expo.dev/4ee2c9d9-d0e3-4498-97dc-c0971e5d8717"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
